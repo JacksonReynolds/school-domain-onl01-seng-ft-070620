@@ -16,5 +16,7 @@ class School
     end #if
   end #add_student
 
+  def grade(grade)
+    puts @roster[grade]
 
 end #School
