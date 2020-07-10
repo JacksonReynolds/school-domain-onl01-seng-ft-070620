@@ -15,6 +15,7 @@ class School
       ROSTER[grade] = []
       ROSTER[grade] << student_name
     end #if
+  end #add_student
 
 
 end #School
