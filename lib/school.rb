@@ -21,10 +21,12 @@ class School
   end #grade
 
   def sort
-    @roster.collect do |grade, students|
-      students.sort.to_h
+    @roster.collect.to_h do |grade, students|
+      students.sort
     end #do
-    # @roster
+    # @roster.collect do |grade, students|
+    #   students.sort
+    # end #do
   end #sort
 
 end #School
